@@ -40,7 +40,7 @@ jina-reranker-m0接口
 
 图片输入接口（base64）:/api/v1/img/reranker,该接口query为base64图片，实现图片—图片和图片—文本相关度计算。
 
-# 4.3 请求示例
+### 4.3 请求示例
 以 BGE 文本嵌入接口为例，使用curl命令发送请求：
 curl -X 'POST' \
   'http://127.0.0.1:8000/api/v1/embedding' \
